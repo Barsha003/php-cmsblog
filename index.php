@@ -1,13 +1,13 @@
-<?php 
-include "includes/db.php"
-?>
-<?php 
-include "includes/header.php"
-?>
-    <!-- Navigation -->
-    <?php 
-    include "includes/nav.php"
-?>
+<!-- header -->
+<?php
+include "includes/header.php";
+  ?>
+    <!-- nav -->
+<?php
+include "includes/nav.php";
+  ?>
+
+
     <!-- Page Content -->
     <div class="container">
 

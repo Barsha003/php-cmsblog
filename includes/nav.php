@@ -1,5 +1,5 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <div class="container">
 
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,14 +17,7 @@
                 <ul class="nav navbar-nav">
                 <!-- query to db table catagories -->
 
-                   <?php
-                    $query = "SELECT * FROM catagories";
-                    $select_all_catagories_query = mysqli_query($connection,$query);
-                    while($row = mysqli_fetch_assoc($select_all_catagories_query)){
-                      $cat_title = $row['cat_title'];
-                      echo "<li><a href='#' {$cat_title} </a></li>";
-                    }
-                ?>
+
               <!-- <li>
                         <a href="#">About</a>
                     </li>
@@ -37,6 +30,6 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
+    </div>
         <!-- /.container -->
-    </nav>
+</nav>
